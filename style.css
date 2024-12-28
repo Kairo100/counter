@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   min-height: 100vh;
+   background: linear-gradient(to right ,rgb(145, 145, 145), rgb(24, 24, 24));
+}
+.container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(36, 36, 36, 0.5);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.heading , .counter-machine{
+    color: white;
+    margin: 10px;
+}
+.counter{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+background-color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px auto;
+    /*to change border to green and red when zh*/
+    border: 2px solid transparent;
+    transition: border-color 0.5s;
+    
+    
+
+    
+}
+
+
+.counter h1{
+    font-size: 40px;
+}
+.btn-group{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+
+}
+.btn-counter {
+    background-color: rgb(4, 8, 255);
+    color: white;
+    border: none;
+    padding: 5px 10px  ;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+
+
+}
+.btn-counter:hover {
+    background-color: rgb(3, 5, 170);
+}
+.positive {
+   border-color: green;
+}
+.negative {
+    border-color: red;
+ }
